@@ -14,11 +14,11 @@ Programs for processing samples from PRJEB56841 project
 
 3. Visualization of SNP from vcf files
     
-    3.1) MPXV_APOBEC.ipynb - number of reads and allele frequences for each sample with SNP by allele
+    3.1. MPXV_APOBEC.ipynb - number of reads and allele frequences for each sample with SNP by allele
         
 	Archive with plots is available https://drive.google.com/file/d/16i0P8gNPb4JL6YCDeZRfEDB77ym-wwaf/view?usp=sharing
     
-    3.2) MPXV_vcf.Rmd - number of reads and allele frequences for C>T mutations for replicas by time and allele
+    3.2. MPXV_vcf.Rmd - number of reads and allele frequences for C>T mutations for replicas by time and allele
         
 	Pictures are located in output_files/pictures/CTmutations_by_replica_time/
 
@@ -28,11 +28,11 @@ Programs for processing samples from PRJEB56841 project
 
 	Scripts:
     
-	4.1) simulation.sh runs features_samples.py, features_samples_dRNA.py and simulation.py
+	4.1. simulation.sh runs features_samples.py, features_samples_dRNA.py and simulation.py
     
-	4.2) features_samples.py and features_samples_dRNA.py extract samples description from 41597_2023_2149_MOESM2_ESM.xlsx
+	4.2. features_samples.py and features_samples_dRNA.py extract samples description from 41597_2023_2149_MOESM2_ESM.xlsx
     
-	4.3) simulation.py runs simulation for each sample
+	4.3. simulation.py runs simulation for each sample
         
 		OUTPUT:
         
@@ -44,7 +44,7 @@ Programs for processing samples from PRJEB56841 project
             
 		Plots were made using MPXV_APOBEC.ipynb, are located in output_files/pictures/simulation_Nreads/ 
     
-	4.4) - get positions with the greatest and the least number of reads in real sample
+	4.4. - get positions with the greatest and the least number of reads in real sample
         
 		OUTPUT:
         
