@@ -34,20 +34,20 @@ Programs for processing samples from PRJEB56841 project
     
 	4.3. simulation.py runs simulation for each sample
         
-		OUTPUT:
+	    OUTPUT:
         
-		1) simulations_shares.csv - dataframe with real and simulated number of positions that were mutated in the genome and the share of these positions from potential ones
+	    1) simulations_shares.csv - dataframe with real and simulated number of positions that were mutated in the genome and the share of these positions from potential ones
             
-		Plots were made using MPXV_APOBEC.ipynb, are located in output_files/pictures/simulation_shares/
+	    Plots were made using MPXV_APOBEC.ipynb, are located in output_files/pictures/simulation_shares/
         
-		2) simulations_Nreads_positions.csv - file with potential targets coordinate and real and simulated number of reads for each position in sample
+	    2) simulations_Nreads_positions.csv - file with potential targets coordinate and real and simulated number of reads for each position in sample
             
-		Plots were made using MPXV_APOBEC.ipynb, are located in output_files/pictures/simulation_Nreads/ 
-    
-	4.4. - get positions with the greatest and the least number of reads in real sample
+	    Plots were made using MPXV_APOBEC.ipynb, are located in output_files/pictures/simulation_Nreads/ 
+
+	    File simulations_Nreads_positions.csv was processed in MPXV_APOBEC.ipynb and positions with the greatest and the least number of reads n samples were found.
+
+	    OUTPUT:
         
-		OUTPUT:
+	    1) position_with_the_greatest_Nreads.csv
         
-		1) position_with_the_greatest_Nreads.csv
-        
-		2) positions_with_the_greatest_simulated_Nreads.csv
+	    2) positions_with_the_greatest_simulated_Nreads.csv
