@@ -1,107 +1,130 @@
-"X.CHROM","POS","ID","REF","ALT","QUAL","FILTER","INFO","FORMAT","SAMPLE","motif","nucl_pos_codon","parent_codon","parent_aa","child_codon","mutated_aa","mutation_category","grantham_score","grantham_rank","grantham_rank_color"
-"NC_063383.1",1262,".","G","A",14.06,"PASS","P","GT:GQ:DP:AD:AF","1/1:14:182:5,156:0.8571","GA","2","TCA","S","TTA","L","nonsynonymous",145,"moderately radical","#3D405B"
-"NC_063383.1",2591,".","G","A",7.46,"PASS","F","GT:GQ:DP:AD:AF","1/1:7:82:42,31:0.3780","GA","2","TCC","S","TTC","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",3111,".","G","A",13.9,"PASS","P","GT:GQ:DP:AD:AF","1/1:13:31:4,23:0.7419","GA","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",3522,".","G","A",19.24,"PASS","P","GT:GQ:DP:AD:AF","1/1:19:36:1,34:0.9444","GA","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",3818,".","C","T",18.22,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:59:2,45:0.7627","TC","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",7771,".","C","T",15.69,"PASS","P","GT:GQ:DP:AD:AF","1/1:15:1424:16,1054:0.7402","TC","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",18111,".","G","A",15.61,"PASS","P","GT:GQ:DP:AD:AF","0/1:15:1071:491,298:0.2782","GA","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",21723,".","G","A",23.58,"PASS","F","GT:GQ:DP:AD:AF","1/1:23:732:41,584:0.7978","GA","3","TTC","=","TTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",23564,".","C","T",18.36,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:2793:22,2370:0.8485","TC","3","TCG","=","TCA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",24020,".","G","A",5.73,"PASS","F","GT:GQ:DP:AD:AF","0/1:5:2861:1111,398:0.1391","GA","3","GTC","=","GTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",30367,".","G","A",15.97,"PASS","P","GT:GQ:DP:AD:AF","1/1:15:360:44,225:0.6250","GA","3","CTC","=","CTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",31053,".","G","A",15.71,"PASS","P","GT:GQ:DP:AD:AF","1/1:15:452:12,211:0.4668","GA","1","CGC","R","TGC","C","nonsynonymous",180,"radical","#E07A5F"
-"NC_063383.1",34459,".","G","A",13.26,"PASS","P","GT:GQ:DP:AD:AF","1/1:13:391:94,230:0.5882","GA","1","CCG","P","TCG","S","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",37202,".","G","A",15.29,"PASS","P","GT:GQ:DP:AD:AF","1/1:15:509:20,463:0.9096","GA","3","TTC","=","TTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",38360,".","G","A",13.02,"PASS","P","GT:GQ:DP:AD:AF","1/1:13:674:73,531:0.7878","GA","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",38662,".","C","T",20.94,"PASS","P","GT:GQ:DP:AD:AF","1/1:20:790:30,580:0.7342","TC","1","GAG","E","AAG","K","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",39119,".","C","T",18.28,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:755:34,504:0.6675","TC","3","GAG","=","GAA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",39139,".","C","T",18.06,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:753:16,693:0.9203","TC","1","GAG","E","AAG","K","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",39383,".","C","T",15.55,"PASS","F","GT:GQ:DP:AD:AF","0/1:15:727:443,218:0.2999","TC","3","AAG","=","AAA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",40415,".","G","A",7.65,"PASS","F","GT:GQ:DP:AD:AF","1/1:7:2585:1134,724:0.2801","GA","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",42788,".","C","T",13.51,"PASS","P","GT:GQ:DP:AD:AF","0/1:13:5433:1652,1046:0.1925","TC","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",42956,".","C","T",12.42,"PASS","P","GT:GQ:DP:AD:AF","0/1:12:5603:2369,791:0.1412","TC","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",44980,".","C","T",9.4,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:792:313,289:0.3649","TC","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",51455,".","C","T",14.03,"PASS","P","GT:GQ:DP:AD:AF","0/1:14:7070:3713,1412:0.1997","TC","2","AGA","R","AAA","K","nonsynonymous",26,"conservative","#F2CC8F"
-"NC_063383.1",52885,".","G","A",13.49,"PASS","P","GT:GQ:DP:AD:AF","1/1:13:2577:11,2267:0.8797","GA","3","GTC","=","GTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",54117,".","G","A",18.95,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:1807:127,1188:0.6574","GA","1","CTC","L","TTC","F","nonsynonymous",22,"conservative","#F2CC8F"
-"NC_063383.1",54635,".","G","A",17.71,"PASS","P","GT:GQ:DP:AD:AF","1/1:17:1919:121,1222:0.6368","GA","1","GAC","D","AAC","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",55133,".","G","A",16.02,"PASS","P","GT:GQ:DP:AD:AF","1/1:16:2683:73,2417:0.9009","GA","3","CTC","=","CTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",61102,".","G","A",13.91,"PASS","F","GT:GQ:DP:AD:AF","0/1:13:728:322,208:0.2857","GA","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",64297,".","G","A",23.24,"PASS","P","GT:GQ:DP:AD:AF","1/1:23:384:2,320:0.8333","GA","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",64426,".","C","T",19.39,"PASS","P","GT:GQ:DP:AD:AF","1/1:19:373:6,346:0.9276","TC","3","ACG","=","ACA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",72362,".","C","T",24.49,"PASS","P","GT:GQ:DP:AD:AF","1/1:24:439:3,345:0.7859","TC","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",73066,".","C","T",22.34,"PASS","P","GT:GQ:DP:AD:AF","1/1:22:685:4,632:0.9226","TC","2","TCG","S","TTG","L","nonsynonymous",145,"moderately radical","#3D405B"
-"NC_063383.1",73239,".","G","A",17.92,"PASS","P","GT:GQ:DP:AD:AF","1/1:17:722:12,407:0.5637","GA","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",74205,".","G","A",21.02,"PASS","P","GT:GQ:DP:AD:AF","1/1:21:696:4,590:0.8477","GA","3","ATG","M","ATA","I","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",75155,".","C","T",11.11,"PASS","F","GT:GQ:DP:AD:AF","0/1:11:782:443,174:0.2225","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",75260,".","C","T",9.5,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:790:532,174:0.2203","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",75956,".","C","T",9.94,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:937:641,185:0.1974","TC","2","AGA","R","AAA","K","nonsynonymous",26,"conservative","#F2CC8F"
-"NC_063383.1",77383,".","G","A",22.42,"PASS","P","GT:GQ:DP:AD:AF","1/1:22:1199:24,993:0.8282","GA","1","GAG","E","AAG","K","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",77593,".","C","T",7.2,"PASS","F","GT:GQ:DP:AD:AF","0/1:7:1324:685,260:0.1964","TC","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",77910,".","C","T",12.52,"PASS","P","GT:GQ:DP:AD:AF","0/1:12:1438:721,508:0.3533","TC","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",80037,".","C","T",8.91,"PASS","F","GT:GQ:DP:AD:AF","0/1:8:1578:904,349:0.2212","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",80167,".","C","T",9.68,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:1612:845,437:0.2711","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",81275,".","G","A",23.45,"PASS","P","GT:GQ:DP:AD:AF","1/1:23:718:3,546:0.7604","GA","3","AAG","=","AAA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",82373,".","C","T",19.01,"PASS","P","GT:GQ:DP:AD:AF","1/1:19:626:5,462:0.7380","TC","3","TTC","=","TTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",82451,".","G","A",22.58,"PASS","P","GT:GQ:DP:AD:AF","1/1:22:633:14,550:0.8689","GA","3","ACG","=","ACA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",83326,".","C","T",18.99,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:743:9,417:0.5612","TC","2","TCG","S","TTG","L","nonsynonymous",145,"moderately radical","#3D405B"
-"NC_063383.1",84587,".","C","T",22.64,"PASS","P","GT:GQ:DP:AD:AF","1/1:22:1117:16,852:0.7628","TC","3","TTC","=","TTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",87230,".","G","A",21.48,"PASS","P","GT:GQ:DP:AD:AF","1/1:21:249:2,217:0.8715","GA","1","CAT","H","TAT","Y","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",87297,".","G","A",22.67,"PASS","P","GT:GQ:DP:AD:AF","1/1:22:246:4,215:0.8740","GA","3","TTC","=","TTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",90205,".","C","T",14.67,"PASS","P","GT:GQ:DP:AD:AF","0/1:14:9173:4362,3726:0.4062","TC","1","CTA","=","TTA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",95034,".","G","A",22.48,"PASS","P","GT:GQ:DP:AD:AF","1/1:22:420:5,347:0.8262","GC","3","GTG","=","GTA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",95702,".","C","T",20.1,"PASS","F","GT:GQ:DP:AD:AF","0/1:20:481:168,188:0.3909","AC","3","GAC","=","GAT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",106061,".","G","A",12.4,"PASS","P","GT:GQ:DP:AD:AF","0/1:12:1575:566,688:0.4368","GG","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",108239,".","G","A",12.65,"PASS","P","GT:GQ:DP:AD:AF","0/1:12:2938:1680,1173:0.3993","GA","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",111074,".","C","T",11.31,"PASS","P","GT:GQ:DP:AD:AF","0/1:11:1761:400,893:0.5071","TC","1","GAA","E","AAA","K","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",116080,".","G","A",6.59,"PASS","F","GT:GQ:DP:AD:AF","0/1:6:2506:630,526:0.2099","GA","1","GAA","E","AAA","K","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",117345,".","G","A",11.8,"PASS","F","GT:GQ:DP:AD:AF","0/1:11:2592:1021,702:0.2708","GA","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",119296,".","C","T",11.9,"PASS","F","GT:GQ:DP:AD:AF","1/1:11:3651:7,2187:0.5990","TC","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",121320,".","C","T",17.25,"PASS","P","GT:GQ:DP:AD:AF","1/1:17:7241:42,5479:0.7567","GC","1","GCC","A","ACC","T","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",124130,".","G","A",14.2,"PASS","P","GT:GQ:DP:AD:AF","1/1:14:1596:170,1201:0.7525","GA","1","GAG","E","AAG","K","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",124616,".","G","A",9.83,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:1704:1223,412:0.2418","GC","1","GCG","A","ACG","T","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",124674,".","G","A",17.86,"PASS","P","GT:GQ:DP:AD:AF","1/1:17:1647:86,1209:0.7341","GA","2","CGA","R","CAA","Q","nonsynonymous",43,"conservative","#F2CC8F"
-"NC_063383.1",125249,".","G","A",15.64,"PASS","P","GT:GQ:DP:AD:AF","1/1:15:1487:87,425:0.2858","GA","1","GAA","E","AAA","K","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",128698,".","C","T",18.7,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:606:1,579:0.9554","TC","2","TCG","S","TTG","L","nonsynonymous",145,"moderately radical","#3D405B"
-"NC_063383.1",139981,".","C","T",11.34,"PASS","F","GT:GQ:DP:AD:AF","0/1:11:1694:1064,483:0.2851","TC","1","CTA","=","TTA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",141607,".","C","T",14.98,"PASS","F","GT:GQ:DP:AD:AF","0/1:14:2895:1411,869:0.3002","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",142064,".","C","T",16.12,"PASS","F","GT:GQ:DP:AD:AF","0/1:16:1041:451,375:0.3602","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",142149,".","C","T",17.47,"PASS","P","GT:GQ:DP:AD:AF","0/1:17:1065:427,352:0.3305","TC","3","TTC","=","TTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",142610,".","C","T",12.61,"PASS","P","GT:GQ:DP:AD:AF","0/1:12:1415:716,450:0.3180","TC","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",143763,".","C","T",5.02,"PASS","F","GT:GQ:DP:AD:AF","0/1:5:885:451,185:0.2090","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",148412,".","G","A",23.41,"PASS","P","GT:GQ:DP:AD:AF","1/1:23:4217:90,2584:0.6128","GA","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",150193,".","C","T",14.34,"PASS","F","GT:GQ:DP:AD:AF","0/1:14:4397:2564,1401:0.3186","TC","1","CTA","=","TTA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",150469,".","C","T",17.35,"PASS","P","GT:GQ:DP:AD:AF","1/1:17:4151:28,3920:0.9444","TC","1","CAT","H","TAT","Y","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",153157,".","C","T",14.89,"PASS","F","GT:GQ:DP:AD:AF","0/1:14:461:236,114:0.2473","TC","1","CTA","=","TTA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",153281,".","C","T",17.57,"PASS","P","GT:GQ:DP:AD:AF","0/1:17:417:173,139:0.3333","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",153542,".","C","T",17.04,"PASS","F","GT:GQ:DP:AD:AF","0/1:17:409:176,123:0.3007","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",155070,".","C","T",11.48,"PASS","P","GT:GQ:DP:AD:AF","0/1:11:1644:926,566:0.3443","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",162243,".","G","A",14.8,"PASS","P","GT:GQ:DP:AD:AF","1/1:14:1150:8,800:0.6957","GA","3","CTG","=","CTA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",162331,".","C","T",9.67,"PASS","F","GT:GQ:DP:AD:AF","1/1:9:1193:215,721:0.6044","TC","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",163073,".","C","T",16,"PASS","F","GT:GQ:DP:AD:AF","0/1:16:1592:773,258:0.1621","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",164057,".","C","T",16.79,"PASS","F","GT:GQ:DP:AD:AF","0/1:16:469:115,128:0.2729","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",164832,".","C","T",22.81,"PASS","F","GT:GQ:DP:AD:AF","1/1:22:455:3,268:0.5890","TC","3","CTC","=","CTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",165282,".","C","T",6.07,"PASS","F","GT:GQ:DP:AD:AF","0/1:6:575:249,141:0.2452","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",167783,".","C","T",15.24,"PASS","P","GT:GQ:DP:AD:AF","0/1:15:2990:1229,580:0.1940","AC","3","AAC","=","AAT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",167800,".","C","T",18.58,"PASS","F","GT:GQ:DP:AD:AF","0/1:18:3015:1447,924:0.3065","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",168120,".","C","T",19.97,"PASS","F","GT:GQ:DP:AD:AF","1/1:19:3007:365,1010:0.3359","TC","1","CTT","L","TTT","F","nonsynonymous",22,"conservative","#F2CC8F"
-"NC_063383.1",170262,".","G","A",16.16,"PASS","P","GT:GQ:DP:AD:AF","1/1:16:997:22,919:0.9218","GG","3","CGG","=","CGA","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",171672,".","C","T",9.15,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:1336:861,213:0.1594","TC","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",176069,".","C","T",9.08,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:228:132,35:0.1535","TC","3","TTC","=","TTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",181980,".","G","A",20,"PASS","P","GT:GQ:DP:AD:AF","1/1:20:426:8,377:0.8850","GA","1","GAC","D","AAC","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",183519,".","C","T",20.65,"PASS","P","GT:GQ:DP:AD:AF","1/1:20:229:8,186:0.8122","TC","1","CCG","P","TCG","S","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",184369,".","C","T",5.53,"PASS","F","GT:GQ:DP:AD:AF","0/1:5:197:126,54:0.2741","TC","2","TCT","S","TTT","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",186578,".","G","A",16.54,"PASS","P","GT:GQ:DP:AD:AF","1/1:16:303:14,208:0.6865","GA","3","ATG","M","ATA","I","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",186834,".","C","T",15.05,"PASS","P","GT:GQ:DP:AD:AF","0/1:15:360:200,85:0.2361","TC","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",189604,".","C","T",16.13,"PASS","F","GT:GQ:DP:AD:AF","0/1:16:1067:423,410:0.3843","TC","1","CTG","=","TTG","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",190660,".","G","A",15.49,"PASS","P","GT:GQ:DP:AD:AF","1/1:15:433:1,417:0.9630","GA","2","AGA","R","AAA","K","nonsynonymous",26,"conservative","#F2CC8F"
-"NC_063383.1",191977,".","C","T",9.42,"PASS","F","GT:GQ:DP:AD:AF","0/1:9:396:207,130:0.3283","TC","3","CTC","=","CTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",193392,".","G","A",22.52,"PASS","P","GT:GQ:DP:AD:AF","1/1:22:50:1,45:0.9000","GA","1","GAT","D","AAT","N","nonsynonymous",0,"conservative","#F2CC8F"
-"NC_063383.1",193688,".","C","T",18.96,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:37:2,30:0.8108","TC","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",194099,".","C","T",18.88,"PASS","P","GT:GQ:DP:AD:AF","1/1:18:31:1,28:0.9032","TC","3","ATC","=","ATT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",194619,".","C","T",5.2,"PASS","F","GT:GQ:DP:AD:AF","1/1:5:66:10,28:0.4242","TC","2","TCC","S","TTC","F","nonsynonymous",155,"radical","#E07A5F"
-"NC_063383.1",195044,".","C","T",13.23,"PASS","P","GT:GQ:DP:AD:AF","0/1:13:87:42,26:0.2989","TC","1","CGG","R","TGG","W","nonsynonymous",101,"moderately radical","#3D405B"
-"NC_063383.1",195948,".","C","T",17.58,"PASS","P","GT:GQ:DP:AD:AF","1/1:17:131:11,113:0.8626","TC","2","TCA","S","TTA","L","nonsynonymous",145,"moderately radical","#3D405B"
-"NC_063383.1",196360,".","C","T",7.33,"PASS","F","GT:GQ:DP:AD:AF","0/1:7:178:86,27:0.1517","TC","3","CTC","=","CTT","=","synonymous",0,"synonymous","#5F797B"
-"NC_063383.1",196372,".","C","T",3.85,"PASS","F","GT:GQ:DP:AD:AF","0/1:3:177:89,44:0.2486","TC","3","GTC","=","GTT","=","synonymous",0,"synonymous","#5F797B"
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE	motif	nucl_pos_codon	parent_codon	parent_aa	child_codon	mutated_aa	mutation_category	gene_name
+NC_063383.1	359	.	G	A	16.38	PASS	P	GT:GQ:DP:AD:AF	0/1:16:90:44,35:0.3889	GA	-	-	-	-	-	intergenic	-
+NC_063383.1	1262	.	G	A	14.06	PASS	P	GT:GQ:DP:AD:AF	1/1:14:182:5,156:0.8571	GA	2	TCA	S	TTA	L	nonsynonymous	OPG001
+NC_063383.1	2591	.	G	A	7.46	PASS	F	GT:GQ:DP:AD:AF	1/1:7:82:42,31:0.3780	GA	2	TCC	S	TTC	F	nonsynonymous	OPG002
+NC_063383.1	3111	.	G	A	13.9	PASS	P	GT:GQ:DP:AD:AF	1/1:13:31:4,23:0.7419	GA	3	ATC	I	ATT	I	synonymous	OPG003
+NC_063383.1	3522	.	G	A	19.24	PASS	P	GT:GQ:DP:AD:AF	1/1:19:36:1,34:0.9444	GA	3	ATC	I	ATT	I	synonymous	OPG003
+NC_063383.1	3818	.	C	T	18.22	PASS	P	GT:GQ:DP:AD:AF	1/1:18:59:2,45:0.7627	TC	1	GAT	D	AAT	N	nonsynonymous	OPG003
+NC_063383.1	7771	.	C	T	15.69	PASS	P	GT:GQ:DP:AD:AF	1/1:15:1424:16,1054:0.7402	TC	3	ATC	I	ATT	I	synonymous	OPG019
+NC_063383.1	15428	.	G	A	18.95	PASS	P	GT:GQ:DP:AD:AF	1/1:18:429:10,372:0.8671	GA	-	-	-	-	-	intergenic	-
+NC_063383.1	16595	.	G	A	7.03	PASS	F	GT:GQ:DP:AD:AF	1/1:7:2365:477,262:0.1108	GA	-	-	-	-	-	intergenic	-
+NC_063383.1	18111	.	G	A	15.61	PASS	P	GT:GQ:DP:AD:AF	0/1:15:1071:491,298:0.2782	GA	1	CTG	L	TTG	L	synonymous	OPG031
+NC_063383.1	19049	.	G	A	13.18	PASS	P	GT:GQ:DP:AD:AF	0/1:13:791:372,338:0.4273	GA	-	-	-	-	-	intergenic	-
+NC_063383.1	21723	.	G	A	23.58	PASS	F	GT:GQ:DP:AD:AF	1/1:23:732:41,584:0.7978	GA	3	TTC	F	TTT	F	synonymous	OPG037
+NC_063383.1	23564	.	C	T	18.36	PASS	P	GT:GQ:DP:AD:AF	1/1:18:2793:22,2370:0.8485	TC	3	TCG	S	TCA	S	synonymous	OPG039
+NC_063383.1	24020	.	G	A	5.73	PASS	F	GT:GQ:DP:AD:AF	0/1:5:2861:1111,398:0.1391	GA	3	GTC	V	GTT	V	synonymous	OPG039
+NC_063383.1	25661	.	G	A	11.57	PASS	F	GT:GQ:DP:AD:AF	1/1:11:685:108,376:0.5489	GA	-	-	-	-	-	intergenic	-
+NC_063383.1	30367	.	G	A	15.97	PASS	P	GT:GQ:DP:AD:AF	1/1:15:360:44,225:0.6250	GA	3	CTC	L	CTT	L	synonymous	OPG047
+NC_063383.1	31053	.	G	A	15.71	PASS	P	GT:GQ:DP:AD:AF	1/1:15:452:12,211:0.4668	GA	1	CGC	R	TGC	C	nonsynonymous	OPG047
+NC_063383.1	34459	.	G	A	13.26	PASS	P	GT:GQ:DP:AD:AF	1/1:13:391:94,230:0.5882	GA	1	CCG	P	TCG	S	nonsynonymous	OPG053
+NC_063383.1	37202	.	G	A	15.29	PASS	P	GT:GQ:DP:AD:AF	1/1:15:509:20,463:0.9096	GA	3	TTC	F	TTT	F	synonymous	OPG056
+NC_063383.1	38360	.	G	A	13.02	PASS	P	GT:GQ:DP:AD:AF	1/1:13:674:73,531:0.7878	GA	3	ATC	I	ATT	I	synonymous	OPG056
+NC_063383.1	38662	.	C	T	20.94	PASS	P	GT:GQ:DP:AD:AF	1/1:20:790:30,580:0.7342	TC	1	GAG	E	AAG	K	nonsynonymous	OPG056
+NC_063383.1	39119	.	C	T	18.28	PASS	P	GT:GQ:DP:AD:AF	1/1:18:755:34,504:0.6675	TC	3	GAG	E	GAA	E	synonymous	OPG057
+NC_063383.1	39139	.	C	T	18.06	PASS	P	GT:GQ:DP:AD:AF	1/1:18:753:16,693:0.9203	TC	1	GAG	E	AAG	K	nonsynonymous	OPG057
+NC_063383.1	39383	.	C	T	15.55	PASS	F	GT:GQ:DP:AD:AF	0/1:15:727:443,218:0.2999	TC	3	AAG	K	AAA	K	synonymous	OPG057
+NC_063383.1	40415	.	G	A	7.65	PASS	F	GT:GQ:DP:AD:AF	1/1:7:2585:1134,724:0.2801	GA	2	TCT	S	TTT	F	nonsynonymous	OPG058
+NC_063383.1	42788	.	C	T	13.51	PASS	P	GT:GQ:DP:AD:AF	0/1:13:5433:1652,1046:0.1925	TC	1	GAT	D	AAT	N	nonsynonymous	OPG063
+NC_063383.1	42956	.	C	T	12.42	PASS	P	GT:GQ:DP:AD:AF	0/1:12:5603:2369,791:0.1412	TC	1	GAT	D	AAT	N	nonsynonymous	OPG063
+NC_063383.1	44980	.	C	T	9.4	PASS	F	GT:GQ:DP:AD:AF	0/1:9:792:313,289:0.3649	TC	1	GAT	D	AAT	N	nonsynonymous	OPG064
+NC_063383.1	47570	.	C	T	13.61	PASS	F	GT:GQ:DP:AD:AF	0/1:13:198:132,47:0.2374	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	51455	.	C	T	14.03	PASS	P	GT:GQ:DP:AD:AF	0/1:14:7070:3713,1412:0.1997	TC	2	AGA	R	AAA	K	nonsynonymous	OPG071
+NC_063383.1	52885	.	G	A	13.49	PASS	P	GT:GQ:DP:AD:AF	1/1:13:2577:11,2267:0.8797	GA	3	GTC	V	GTT	V	synonymous	OPG071
+NC_063383.1	54117	.	G	A	18.95	PASS	P	GT:GQ:DP:AD:AF	1/1:18:1807:127,1188:0.6574	GA	1	CTC	L	TTC	F	nonsynonymous	OPG071
+NC_063383.1	54635	.	G	A	17.71	PASS	P	GT:GQ:DP:AD:AF	1/1:17:1919:121,1222:0.6368	GA	1	GAC	D	AAC	N	nonsynonymous	OPG072
+NC_063383.1	55133	.	G	A	16.02	PASS	P	GT:GQ:DP:AD:AF	1/1:16:2683:73,2417:0.9009	GA	3	CTC	L	CTT	L	synonymous	OPG073
+NC_063383.1	61102	.	G	A	13.91	PASS	F	GT:GQ:DP:AD:AF	0/1:13:728:322,208:0.2857	GA	2	TCT	S	TTT	F	nonsynonymous	OPG080
+NC_063383.1	64297	.	G	A	23.24	PASS	P	GT:GQ:DP:AD:AF	1/1:23:384:2,320:0.8333	GA	3	ATC	I	ATT	I	synonymous	OPG083
+NC_063383.1	64426	.	C	T	19.39	PASS	P	GT:GQ:DP:AD:AF	1/1:19:373:6,346:0.9276	TC	3	ACG	T	ACA	T	synonymous	OPG083
+NC_063383.1	72362	.	C	T	24.49	PASS	P	GT:GQ:DP:AD:AF	1/1:24:439:3,345:0.7859	TC	1	GAT	D	AAT	N	nonsynonymous	OPG092
+NC_063383.1	73066	.	C	T	22.34	PASS	P	GT:GQ:DP:AD:AF	1/1:22:685:4,632:0.9226	TC	2	TCG	S	TTG	L	nonsynonymous	OPG093
+NC_063383.1	73239	.	G	A	17.92	PASS	P	GT:GQ:DP:AD:AF	1/1:17:722:12,407:0.5637	GA	1	GAT	D	AAT	N	nonsynonymous	OPG093
+NC_063383.1	74205	.	G	A	21.02	PASS	P	GT:GQ:DP:AD:AF	1/1:21:696:4,590:0.8477	GA	3	ATG	M	ATA	I	nonsynonymous	OPG094
+NC_063383.1	75155	.	C	T	11.11	PASS	F	GT:GQ:DP:AD:AF	0/1:11:782:443,174:0.2225	TC	2	TCT	S	TTT	F	nonsynonymous	OPG095
+NC_063383.1	75260	.	C	T	9.5	PASS	F	GT:GQ:DP:AD:AF	0/1:9:790:532,174:0.2203	TC	2	TCT	S	TTT	F	nonsynonymous	OPG095
+NC_063383.1	75956	.	C	T	9.94	PASS	F	GT:GQ:DP:AD:AF	0/1:9:937:641,185:0.1974	TC	2	AGA	R	AAA	K	nonsynonymous	OPG097
+NC_063383.1	77383	.	G	A	22.42	PASS	P	GT:GQ:DP:AD:AF	1/1:22:1199:24,993:0.8282	GA	1	GAG	E	AAG	K	nonsynonymous	OPG098
+NC_063383.1	77593	.	C	T	7.2	PASS	F	GT:GQ:DP:AD:AF	0/1:7:1324:685,260:0.1964	TC	1	CTG	L	TTG	L	synonymous	OPG098
+NC_063383.1	77910	.	C	T	12.52	PASS	P	GT:GQ:DP:AD:AF	0/1:12:1438:721,508:0.3533	TC	3	ATC	I	ATT	I	synonymous	OPG099
+NC_063383.1	80037	.	C	T	8.91	PASS	F	GT:GQ:DP:AD:AF	0/1:8:1578:904,349:0.2212	TC	2	TCT	S	TTT	F	nonsynonymous	OPG102
+NC_063383.1	80167	.	C	T	9.68	PASS	F	GT:GQ:DP:AD:AF	0/1:9:1612:845,437:0.2711	TC	2	TCT	S	TTT	F	nonsynonymous	OPG103
+NC_063383.1	81275	.	G	A	23.45	PASS	P	GT:GQ:DP:AD:AF	1/1:23:718:3,546:0.7604	GA	3	AAG	K	AAA	K	synonymous	OPG105
+NC_063383.1	82373	.	C	T	19.01	PASS	P	GT:GQ:DP:AD:AF	1/1:19:626:5,462:0.7380	TC	3	TTC	F	TTT	F	synonymous	OPG105
+NC_063383.1	82451	.	G	A	22.58	PASS	P	GT:GQ:DP:AD:AF	1/1:22:633:14,550:0.8689	GA	3	ACG	T	ACA	T	synonymous	OPG105
+NC_063383.1	83326	.	C	T	18.99	PASS	P	GT:GQ:DP:AD:AF	1/1:18:743:9,417:0.5612	TC	2	TCG	S	TTG	L	nonsynonymous	OPG105
+NC_063383.1	84587	.	C	T	22.64	PASS	P	GT:GQ:DP:AD:AF	1/1:22:1117:16,852:0.7628	TC	3	TTC	F	TTT	F	synonymous	OPG105
+NC_063383.1	87230	.	G	A	21.48	PASS	P	GT:GQ:DP:AD:AF	1/1:21:249:2,217:0.8715	GA	1	CAT	H	TAT	Y	nonsynonymous	OPG109
+NC_063383.1	87297	.	G	A	22.67	PASS	P	GT:GQ:DP:AD:AF	1/1:22:246:4,215:0.8740	GA	3	TTC	F	TTT	F	synonymous	OPG109
+NC_063383.1	90205	.	C	T	14.67	PASS	P	GT:GQ:DP:AD:AF	0/1:14:9173:4362,3726:0.4062	TC	1	CTA	L	TTA	L	synonymous	OPG110
+NC_063383.1	91728	.	G	A	22.65	PASS	P	GT:GQ:DP:AD:AF	1/1:22:1200:5,853:0.7108	GA	-	-	-	-	-	intergenic	-
+NC_063383.1	95034	.	G	A	22.48	PASS	P	GT:GQ:DP:AD:AF	1/1:22:420:5,347:0.8262	GC	3	GTG	V	GTA	V	synonymous	OPG115
+NC_063383.1	95702	.	C	T	20.1	PASS	F	GT:GQ:DP:AD:AF	0/1:20:481:168,188:0.3909	AC	3	GAC	D	GAT	D	synonymous	OPG116
+NC_063383.1	106061	.	G	A	12.4	PASS	P	GT:GQ:DP:AD:AF	0/1:12:1575:566,688:0.4368	GG	1	CTG	L	TTG	L	synonymous	OPG125
+NC_063383.1	108239	.	G	A	12.65	PASS	P	GT:GQ:DP:AD:AF	0/1:12:2938:1680,1173:0.3993	GA	2	TCT	S	TTT	F	nonsynonymous	OPG127
+NC_063383.1	111074	.	C	T	11.31	PASS	P	GT:GQ:DP:AD:AF	0/1:11:1761:400,893:0.5071	TC	1	GAA	E	AAA	K	nonsynonymous	OPG130
+NC_063383.1	116080	.	G	A	6.59	PASS	F	GT:GQ:DP:AD:AF	0/1:6:2506:630,526:0.2099	GA	1	GAA	E	AAA	K	nonsynonymous	OPG134
+NC_063383.1	117345	.	G	A	11.8	PASS	F	GT:GQ:DP:AD:AF	0/1:11:2592:1021,702:0.2708	GA	2	TCT	S	TTT	F	nonsynonymous	OPG136
+NC_063383.1	119296	.	C	T	11.9	PASS	F	GT:GQ:DP:AD:AF	1/1:11:3651:7,2187:0.5990	TC	1	GAT	D	AAT	N	nonsynonymous	OPG136
+NC_063383.1	121320	.	C	T	17.25	PASS	P	GT:GQ:DP:AD:AF	1/1:17:7241:42,5479:0.7567	GC	1	GCC	A	ACC	T	nonsynonymous	OPG139
+NC_063383.1	124130	.	G	A	14.2	PASS	P	GT:GQ:DP:AD:AF	1/1:14:1596:170,1201:0.7525	GA	1	GAG	E	AAG	K	nonsynonymous	OPG145
+NC_063383.1	124616	.	G	A	9.83	PASS	F	GT:GQ:DP:AD:AF	0/1:9:1704:1223,412:0.2418	GC	1	GCG	A	ACG	T	nonsynonymous	OPG145
+NC_063383.1	124674	.	G	A	17.86	PASS	P	GT:GQ:DP:AD:AF	1/1:17:1647:86,1209:0.7341	GA	2	CGA	R	CAA	Q	nonsynonymous	OPG145
+NC_063383.1	125249	.	G	A	15.64	PASS	P	GT:GQ:DP:AD:AF	1/1:15:1487:87,425:0.2858	GA	1	GAA	E	AAA	K	nonsynonymous	OPG145
+NC_063383.1	128698	.	C	T	18.7	PASS	P	GT:GQ:DP:AD:AF	1/1:18:606:1,579:0.9554	TC	2	TCG	S	TTG	L	nonsynonymous	OPG150
+NC_063383.1	139981	.	C	T	11.34	PASS	F	GT:GQ:DP:AD:AF	0/1:11:1694:1064,483:0.2851	TC	1	CTA	L	TTA	L	synonymous	OPG159
+NC_063383.1	141607	.	C	T	14.98	PASS	F	GT:GQ:DP:AD:AF	0/1:14:2895:1411,869:0.3002	TC	2	TCT	S	TTT	F	nonsynonymous	OPG161
+NC_063383.1	142064	.	C	T	16.12	PASS	F	GT:GQ:DP:AD:AF	0/1:16:1041:451,375:0.3602	TC	2	TCT	S	TTT	F	nonsynonymous	OPG162
+NC_063383.1	142149	.	C	T	17.47	PASS	P	GT:GQ:DP:AD:AF	0/1:17:1065:427,352:0.3305	TC	3	TTC	F	TTT	F	synonymous	OPG162
+NC_063383.1	142610	.	C	T	12.61	PASS	P	GT:GQ:DP:AD:AF	0/1:12:1415:716,450:0.3180	TC	1	CTG	L	TTG	L	synonymous	OPG163
+NC_063383.1	143763	.	C	T	5.02	PASS	F	GT:GQ:DP:AD:AF	0/1:5:885:451,185:0.2090	TC	2	TCT	S	TTT	F	nonsynonymous	OPG165
+NC_063383.1	148412	.	G	A	23.41	PASS	P	GT:GQ:DP:AD:AF	1/1:23:4217:90,2584:0.6128	GA	3	ATC	I	ATT	I	synonymous	OPG174
+NC_063383.1	150193	.	C	T	14.34	PASS	F	GT:GQ:DP:AD:AF	0/1:14:4397:2564,1401:0.3186	TC	1	CTA	L	TTA	L	synonymous	OPG176
+NC_063383.1	150469	.	C	T	17.35	PASS	P	GT:GQ:DP:AD:AF	1/1:17:4151:28,3920:0.9444	TC	1	CAT	H	TAT	Y	nonsynonymous	OPG176
+NC_063383.1	151411	.	C	T	9.65	PASS	F	GT:GQ:DP:AD:AF	0/1:9:585:332,179:0.3060	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	152400	.	C	T	19.82	PASS	P	GT:GQ:DP:AD:AF	0/1:19:1081:472,540:0.4995	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	152634	.	C	T	12.13	PASS	P	GT:GQ:DP:AD:AF	0/1:12:1069:472,378:0.3536	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	153157	.	C	T	14.89	PASS	F	GT:GQ:DP:AD:AF	0/1:14:461:236,114:0.2473	TC	1	CTA	L	TTA	L	synonymous	OPG180
+NC_063383.1	153281	.	C	T	17.57	PASS	P	GT:GQ:DP:AD:AF	0/1:17:417:173,139:0.3333	TC	2	TCT	S	TTT	F	nonsynonymous	OPG180
+NC_063383.1	153542	.	C	T	17.04	PASS	F	GT:GQ:DP:AD:AF	0/1:17:409:176,123:0.3007	TC	2	TCT	S	TTT	F	nonsynonymous	OPG180
+NC_063383.1	155070	.	C	T	11.48	PASS	P	GT:GQ:DP:AD:AF	0/1:11:1644:926,566:0.3443	TC	2	TCT	S	TTT	F	nonsynonymous	OPG181
+NC_063383.1	155795	.	G	A	22.93	PASS	F	GT:GQ:DP:AD:AF	1/1:22:501:19,328:0.6547	GG	-	-	-	-	-	intergenic	-
+NC_063383.1	156220	.	C	T	8.6	PASS	F	GT:GQ:DP:AD:AF	0/1:8:229:168,48:0.2096	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	158631	.	C	T	12.49	PASS	F	GT:GQ:DP:AD:AF	0/1:12:144:82,22:0.1528	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	162243	.	G	A	14.8	PASS	P	GT:GQ:DP:AD:AF	1/1:14:1150:8,800:0.6957	GA	3	CTG	L	CTA	L	synonymous	OPG188
+NC_063383.1	162331	.	C	T	9.67	PASS	F	GT:GQ:DP:AD:AF	1/1:9:1193:215,721:0.6044	TC	1	CTG	L	TTG	L	synonymous	OPG188
+NC_063383.1	163073	.	C	T	16.0	PASS	F	GT:GQ:DP:AD:AF	0/1:16:1592:773,258:0.1621	TC	2	TCT	S	TTT	F	nonsynonymous	OPG188
+NC_063383.1	164057	.	C	T	16.79	PASS	F	GT:GQ:DP:AD:AF	0/1:16:469:115,128:0.2729	TC	2	TCT	S	TTT	F	nonsynonymous	OPG189
+NC_063383.1	164832	.	C	T	22.81	PASS	F	GT:GQ:DP:AD:AF	1/1:22:455:3,268:0.5890	TC	3	CTC	L	CTT	L	synonymous	OPG189
+NC_063383.1	165282	.	C	T	6.07	PASS	F	GT:GQ:DP:AD:AF	0/1:6:575:249,141:0.2452	TC	2	TCT	S	TTT	F	nonsynonymous	OPG190
+NC_063383.1	167783	.	C	T	15.24	PASS	P	GT:GQ:DP:AD:AF	0/1:15:2990:1229,580:0.1940	AC	3	AAC	N	AAT	N	synonymous	OPG193
+NC_063383.1	167800	.	C	T	18.58	PASS	F	GT:GQ:DP:AD:AF	0/1:18:3015:1447,924:0.3065	TC	2	TCT	S	TTT	F	nonsynonymous	OPG193
+NC_063383.1	168120	.	C	T	19.97	PASS	F	GT:GQ:DP:AD:AF	1/1:19:3007:365,1010:0.3359	TC	1	CTT	L	TTT	F	nonsynonymous	OPG193
+NC_063383.1	169045	.	C	T	5.27	PASS	F	GT:GQ:DP:AD:AF	0/1:5:734:368,191:0.2602	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	170262	.	G	A	16.16	PASS	P	GT:GQ:DP:AD:AF	1/1:16:997:22,919:0.9218	GG	3	CGG	R	CGA	R	synonymous	OPG198
+NC_063383.1	171672	.	C	T	9.15	PASS	F	GT:GQ:DP:AD:AF	0/1:9:1336:861,213:0.1594	TC	1	CTG	L	TTG	L	synonymous	OPG199
+NC_063383.1	173094	.	C	T	11.58	PASS	P	GT:GQ:DP:AD:AF	0/1:11:257:139,92:0.3580	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	174082	.	C	T	6.85	PASS	F	GT:GQ:DP:AD:AF	0/1:6:250:152,64:0.2560	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	176069	.	C	T	9.08	PASS	F	GT:GQ:DP:AD:AF	0/1:9:228:132,35:0.1535	TC	3	TTC	F	TTT	F	synonymous	OPG205
+NC_063383.1	178133	.	G	A	21.96	PASS	P	GT:GQ:DP:AD:AF	1/1:21:276:2,204:0.7391	GA	-	-	-	-	-	intergenic	-
+NC_063383.1	181980	.	G	A	20.0	PASS	P	GT:GQ:DP:AD:AF	1/1:20:426:8,377:0.8850	GA	1	GAC	D	AAC	N	nonsynonymous	OPG210
+NC_063383.1	183519	.	C	T	20.65	PASS	P	GT:GQ:DP:AD:AF	1/1:20:229:8,186:0.8122	TC	1	CCG	P	TCG	S	nonsynonymous	OPG210
+NC_063383.1	184369	.	C	T	5.53	PASS	F	GT:GQ:DP:AD:AF	0/1:5:197:126,54:0.2741	TC	2	TCT	S	TTT	F	nonsynonymous	OPG210
+NC_063383.1	186578	.	G	A	16.54	PASS	P	GT:GQ:DP:AD:AF	1/1:16:303:14,208:0.6865	GA	3	ATG	M	ATA	I	nonsynonymous	OPG210
+NC_063383.1	186834	.	C	T	15.05	PASS	P	GT:GQ:DP:AD:AF	0/1:15:360:200,85:0.2361	TC	1	CTG	L	TTG	L	synonymous	OPG210
+NC_063383.1	187428	.	C	T	20.29	PASS	P	GT:GQ:DP:AD:AF	1/1:20:230:5,206:0.8957	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	187459	.	C	T	17.18	PASS	P	GT:GQ:DP:AD:AF	0/1:17:232:98,40:0.1724	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	187993	.	C	T	18.63	PASS	F	GT:GQ:DP:AD:AF	0/1:18:287:161,76:0.2648	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	188124	.	C	T	5.39	PASS	F	GT:GQ:DP:AD:AF	0/1:5:302:149,94:0.3113	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	188790	.	C	T	13.94	PASS	F	GT:GQ:DP:AD:AF	0/1:13:336:179,75:0.2232	TC	-	-	-	-	-	intergenic	-
+NC_063383.1	189604	.	C	T	16.13	PASS	F	GT:GQ:DP:AD:AF	0/1:16:1067:423,410:0.3843	TC	1	CTG	L	TTG	L	synonymous	OPG005
+NC_063383.1	190660	.	G	A	15.49	PASS	P	GT:GQ:DP:AD:AF	1/1:15:433:1,417:0.9630	GA	2	AGA	R	AAA	K	nonsynonymous	OPG016
+NC_063383.1	191977	.	C	T	9.42	PASS	F	GT:GQ:DP:AD:AF	0/1:9:396:207,130:0.3283	TC	3	CTC	L	CTT	L	synonymous	OPG015
+NC_063383.1	193392	.	G	A	22.52	PASS	P	GT:GQ:DP:AD:AF	1/1:22:50:1,45:0.9000	GA	1	GAT	D	AAT	N	nonsynonymous	OPG003
+NC_063383.1	193688	.	C	T	18.96	PASS	P	GT:GQ:DP:AD:AF	1/1:18:37:2,30:0.8108	TC	3	ATC	I	ATT	I	synonymous	OPG003
+NC_063383.1	194099	.	C	T	18.88	PASS	P	GT:GQ:DP:AD:AF	1/1:18:31:1,28:0.9032	TC	3	ATC	I	ATT	I	synonymous	OPG003
+NC_063383.1	194619	.	C	T	5.2	PASS	F	GT:GQ:DP:AD:AF	1/1:5:66:10,28:0.4242	TC	2	TCC	S	TTC	F	nonsynonymous	OPG002
+NC_063383.1	195044	.	C	T	13.23	PASS	P	GT:GQ:DP:AD:AF	0/1:13:87:42,26:0.2989	TC	1	CGG	R	TGG	W	nonsynonymous	OPG002
+NC_063383.1	195948	.	C	T	17.58	PASS	P	GT:GQ:DP:AD:AF	1/1:17:131:11,113:0.8626	TC	2	TCA	S	TTA	L	nonsynonymous	OPG001
+NC_063383.1	196360	.	C	T	7.33	PASS	F	GT:GQ:DP:AD:AF	0/1:7:178:86,27:0.1517	TC	3	CTC	L	CTT	L	synonymous	OPG001
+NC_063383.1	196372	.	C	T	3.85	PASS	F	GT:GQ:DP:AD:AF	0/1:3:177:89,44:0.2486	TC	3	GTC	V	GTT	V	synonymous	OPG001
+NC_063383.1	196851	.	C	T	13.31	PASS	P	GT:GQ:DP:AD:AF	0/1:13:100:61,32:0.3200	TC	-	-	-	-	-	intergenic	-

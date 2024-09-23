@@ -9,10 +9,12 @@ calculate_grantham <- function(a1, a2) {
 
 grantham
 
-sample_id <- c("ERR10963128")
+sample_id <- c("ERR10513574")
 
 df <- read.csv(paste("../data/vcf/", sample_id, "_APOBEC-like.vcf", sep=""), sep = "\t", header = TRUE)
 df_CDS <- df %>% filter(mutation_category != "intergenic")
+OUTFILE <- paste("../data/vcf/", sample_id, "_APOBEC-like_CDS.vcf", sep="")
+
 score <- mapply(calculate_grantham, df_CDS$parent_aa, df_CDS$mutated_aa, SIMPLIFY = FALSE)
 score <- as.numeric(score)
 df_CDS$grantham_score <- score
@@ -37,4 +39,4 @@ df_CDS <- df_CDS %>% mutate(grantham_rank_color = case_when(
 df_CDS$parent_aa[df_CDS$mutation_category == 'synonymous'] <- '='
 df_CDS$mutated_aa[df_CDS$mutation_category == 'synonymous'] <- '='
 
-write.csv(df_CDS, paste("../data/vcf/", sample_id, "_APOBEC-like.vcf", sep=""), row.names = FALSE)
+write.csv(df_CDS, OUTFILE, row.names = FALSE)
