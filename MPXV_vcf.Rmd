@@ -11,6 +11,7 @@ library(showtextdb)
 showtext_auto()
 font_add_google("Roboto Condensed")
 ```
+
 ```{r}
 pink <- '#C6878F'
 brown <- '#E07A5F'
@@ -93,3 +94,5 @@ ggsave('PRJEB56841/clair3_vcf/vcf_freq_dRNA_fastq.gz.png', plot = p, height=3, w
 p
 ```
 
+
+## Annotation
