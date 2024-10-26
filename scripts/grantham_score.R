@@ -1,3 +1,4 @@
+library(tidyverse)
 # Calculate grantham score
 
 grantham <- readr::read_tsv("https://gist.githubusercontent.com/danielecook/501f03650bca6a3db31ff3af2d413d2a/raw/5583a134b36b60762be6cd54002a0f4044338cd0/grantham.tsv") %>%
@@ -11,9 +12,9 @@ grantham
 
 sample_id <- c("ERR10513574")
 
-df <- read.csv(paste("../data/vcf/", sample_id, "_APOBEC-like.vcf", sep=""), sep = "\t", header = TRUE)
-df_CDS <- df %>% filter(mutation_category != "intergenic")
-OUTFILE <- paste("../data/vcf/", sample_id, "_APOBEC-like_CDS.vcf", sep="")
+df <- read.csv(paste("../data/samples/PRJEB56841/dRNA/", sample_id, "_APOBEC-like.vcf", sep=""), sep = "\t", header = TRUE)
+df_CDS <- df %>% filter(mutation_category != "intergenic") %>% filter(motif == 'TC' | motif == 'GA')
+OUTFILE <- paste("../data/samples/PRJEB56841/dRNA/", sample_id, "_APOBEC-like_CDS.vcf", sep="")
 
 score <- mapply(calculate_grantham, df_CDS$parent_aa, df_CDS$mutated_aa, SIMPLIFY = FALSE)
 score <- as.numeric(score)

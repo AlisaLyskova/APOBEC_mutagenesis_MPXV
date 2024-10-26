@@ -1,0 +1,4 @@
+Number of real positions: 7
+proportion: 0.0014641288433382138
+Mean number of mutated positions in simulations: 1238.19
+proportion: 0.25898138464756326

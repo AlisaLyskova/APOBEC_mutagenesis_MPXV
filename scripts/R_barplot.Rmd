@@ -19,7 +19,7 @@ yellow <- '#F2CC8F'
 ```
 
 ```{r}
-file1 <- c("../data/vcf/ERR10513574_APOBEC-like.vcf")
+file1 <- c("../data/samples/PRJEB56841/dRNA/ERR10513574_APOBEC-like.vcf")
 sample_id <- c("ERR10513574")
 file2 <- c("../data/APOBEC_targets.csv")
 df1 <- read.csv(file1, sep = "\t", header = TRUE)
@@ -46,7 +46,7 @@ df <- rbind(df1,df2)
 df_grouped <- df %>% group_by(mutation_category, type) %>% summarise(number = n())
 df_grouped <- df_grouped %>% mutate(share = case_when(
   type == "TC or GA target site" ~ number/24695,
-  type == "Observed APOBEC3-like" ~ number/121,
+  type == "Observed APOBEC3-like" ~ number/123,
 ))
 df_grouped
 ```
@@ -68,5 +68,5 @@ p <- ggplot(df_grouped, aes(x=factor(mutation_category, level = c('nonsynonymous
 
 p
 
-ggsave(paste('../data/vcf/pictures/APOBEC_targets_observed_', sample_id, '.png', sep=''), plot = p, height=4, width=5, dpi=300)
+#ggsave(paste('../data/samples/PRJEB56841/dRNA/pictures/APOBEC_targets_observed_', sample_id, '.png', sep=''), plot = p, height=4, width=5, dpi=300)
 ```
