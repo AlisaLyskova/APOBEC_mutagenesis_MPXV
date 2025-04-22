@@ -1,13 +1,20 @@
 # APOBEC mutagenesis in MPXV
 
-We analyzed activity of APOBEC3 family proteins in long-read Oxford Nanopore and ILLUMINA RNA-seq data with MPXV.
+We analyzed activity of APOBEC3 family proteins in long-read Oxford Nanopore and short-read ILLUMINA transcriptomic and genomic RNA-seq data with MPXV.
 
 ## SCRIPTS
 
-We downloaded samples (sratoolkit-3.1.1, fastq-dump), indexed genome, aligned reads to the genome and found SNPs using bwa-0.7.17 and freebayes-1.3.6 for ILLUMINA samples (scripts/illumina_samples_process.sh) and minimap2-2.28-r1209 and clair3-v1.0.10 for long-read Oxford Nanopore samples (scripts/nanopore_samples_process.sh).
+We downloaded samples (sratoolkit-3.1.1, fastq-dump) from projects PRJEB56841, PRJEB60728, PRJNA1183318, PRJNA906618, PRJNA980137, PRJNA845087, PRJNA981509 (see data/samples_description.csv).  
 
-We analyzed context of APOBEC3-like mutations. We annotated these positions and build genome map using circos-0.69-8.
+In order to correctly determine the largest number of virus reads, we considered three options for the alignment of the RNA-seq data and performed the procedure for generating reads using InSilicoSeq-2.0.1 (https://github.com/HadrienG/InSilicoSeq), see scripts/iss_monkeys.sh and scripts/iss_human.sh.
 
-We approved APOBEC3 mutagenesis on MPXV by performing 100 generations. 
+We created pipeline for processing and analyzing RNA-seq data (see pipeline.sh). The pipeline consists of two parts. First part is processing RNA-seq data including fastq files quality control (FASTQC v0.12.1), alignment (minimap2-2.28-r1209 and STAR_2.7.11b), alignment quality control (mosdepth-0.3.9 and samtools-1.20 stats), variant calling (clair3-v1.0.10), variants quality control (using VAF distribution). Second part is searching for APOBEC substitutions in samples and analyzing activity of APOBEC3 family proteins.
 
-Program description: We found potential targets with 1 of 4 motifs (TCT, TCG, TCA, TCC) in the genome. For each sample we created dataframe with read ID and potential targets positions. For each row of this table we randomly placed 1 (mutation) or 0 (no mutation) with the total number of 1 was equal to the total number of reads with mutations in this motif.
+Second part of the pipeline contains the following scripts:
+- Creating pictures for found SNPs in samples (heatmap, LOGO, number of reads for 3 nucleotide context of substitutions)
+- Filtering APOBEC subsitutions
+- Random modulation procedure (to access the distribution of detected APOBEC substitutions)
+- Translating substitutions C>T and G>A to the coding chain (file with annotation is required, see data/GCF_014621545.1_ASM1462154v1_genomic.gff); to additionally assess the presence of antisense transcription, files data/TSS.xlsx and data/TES.xlsx are required (here from https://journals.asm.org/doi/10.1128/msphere.00356-24)
+- Analyzing the dependence of the positions of substitutions C>T and G>A and genomic structures (circos-0.69-8, files with type of genes (see data/ucsc_early_late.txt), with repeats (see data/repeats_MPXV.tsv) and with annotation are required)
+- Analyzing the secondary structure in the detected positions (RNAsselem, https://github.com/KazanovLab/RNAsselem)
+- Comparison of the nucleotide context of substitutions C>T and G>A with known specificity of proteins of the APOBEC family
