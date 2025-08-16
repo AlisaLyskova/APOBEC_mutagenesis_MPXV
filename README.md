@@ -18,3 +18,14 @@ Second part of the pipeline contains the following scripts:
 - Analyzing the dependence of the positions of substitutions C>T and G>A and genomic structures (circos-0.69-8, files with type of genes (see data/ucsc_early_late.txt), with repeats (see data/repeats_MPXV.tsv) and with annotation are required)
 - Analyzing the secondary structure in the detected positions (RNAsselem, https://github.com/KazanovLab/RNAsselem)
 - Comparison of the nucleotide context of substitutions C>T and G>A with known specificity of proteins of the APOBEC family
+
+## Publications
+This work is described in the following publication:
+
+  Analysis of MPXV RNA-seq Data Reveals Lack of Evidence of APOBEC3-mediated RNA Editing
+  Authors: Alisa O. Lyskova, Ruslan Kh. Abasov, Anna Pavlova, Evgenii V. Matveev, Alexandra Madorskaya, Fedor M. Kazanov, Gennady V. Ponomarev, Dmitry N. Ivankov, Ogun Adebali, Mikhail S. Gelfand, Marat D. Kazanov
+  Journal: 
+  Year: 
+  DOI: 
+
+  https:
