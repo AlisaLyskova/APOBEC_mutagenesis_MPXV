@@ -22,10 +22,10 @@ Second part of the pipeline contains the following scripts:
 ## Publications
 This work is described in the following publication:
 
-  Analysis of MPXV RNA-seq Data Reveals Lack of Evidence of APOBEC3-mediated RNA Editing
-  Authors: Alisa O. Lyskova, Ruslan Kh. Abasov, Anna Pavlova, Evgenii V. Matveev, Alexandra Madorskaya, Fedor M. Kazanov, Gennady V. Ponomarev, Dmitry N. Ivankov, Ogun Adebali, Mikhail S. Gelfand, Marat D. Kazanov
-  Journal: 
-  Year: 
+  Analysis of MPXV RNA-seq Data Reveals Lack of Evidence of APOBEC3-mediated RNA Editing\
+  Authors: Alisa O. Lyskova, Ruslan Kh. Abasov, Anna Pavlova, Evgenii V. Matveev, Alexandra Madorskaya, Fedor M. Kazanov, Gennady V. Ponomarev, Dmitry N. Ivankov, Ogun Adebali, Mikhail S. Gelfand, Marat D. Kazanov\
+  Journal: \
+  Year: \
   DOI: 
 
   https:
